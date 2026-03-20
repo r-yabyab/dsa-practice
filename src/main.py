@@ -28,6 +28,7 @@ def sortAscSelection():
     # 23, 24
     # 34
 
+
 def readnums():
     nums = []
     numss = [1]
