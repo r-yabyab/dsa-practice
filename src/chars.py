@@ -23,5 +23,7 @@ def firstUniqueChar():
 
     return 0
 
+
+
     
 main()
