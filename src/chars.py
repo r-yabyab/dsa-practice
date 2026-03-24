@@ -1,5 +1,6 @@
 def main():
-    print(firstUniqueChar())
+    # print(firstUniqueChar())
+    print(sort_chars())
 
 def read_chars():
     with open("randchars.txt", "r") as f:
@@ -22,6 +23,13 @@ def firstUniqueChar():
             return char, i
 
     return 0
+
+def sort_chars():
+    charArr = read_chars()
+    print(sorted(charArr))
+    charArr.sort(reverse = True)
+    print(charArr , "sorted")
+    # print(charArr)
 
 
 
