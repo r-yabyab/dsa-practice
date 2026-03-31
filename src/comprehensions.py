@@ -11,10 +11,13 @@ def dict_comprehension():
         "b": 12,
         "c": 20
     }
+    words = ["apple", "cat", "tree", "water"]
     print(data.items())
     
     data_filtered = {k : v for k,v in data.items() if v>10}
     print(data_filtered)
+    word_index = {word:i for i, word in enumerate(words)}
+    print(word_index)
 
 
 dict_comprehension()
